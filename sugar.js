@@ -156,7 +156,7 @@
     document.body.style.backgroundColor = colors[i];
   }, 150);
   var audioElement = document.createElement('audio');
-  audioElement.src='http://m10.music.126.net/20160112210946/afc5c9129985d27fc800d278e3659224/ymusic/a5dd/5da8/89ea/c132cb9a2e628b249e42d3b49c596a9b.mp3';
+  audioElement.src='http://integ.b0.upaiyun.com/sugar.mp3';
   audioElement.load();
   audioElement.play();
 })(window, document);
