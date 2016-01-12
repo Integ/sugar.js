@@ -1,2 +1,2 @@
 # sugar.js
-Shinning like sugars.
+Sugar, Yes please.
