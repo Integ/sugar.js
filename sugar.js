@@ -150,8 +150,7 @@ var colors = [
   'yellowgreen'
 ];
 
-var i = 0;
 setInterval(function() {
+  var i = Math.floor(Math.random() * colors.length);
   document.body.style.backgroundColor = colors[i];
-  i++;
-}, 5);
+}, 150);
