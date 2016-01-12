@@ -156,7 +156,8 @@
     document.body.style.backgroundColor = colors[i];
   }, 150);
   var audioElement = document.createElement('audio');
-  audioElement.src='http://integ.b0.upaiyun.com/sugar.mp3';
+  audioElement.src = '//integ.b0.upaiyun.com/sugar.mp3';
+  audioElement.loop = 'loop';
   audioElement.load();
   audioElement.play();
 })(window, document);
